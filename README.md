@@ -22,7 +22,6 @@ This is a FastAPI application that provides a simple CRUD (Create, Read, Update,
 
    ```bash
    git clone https://github.com/jutoken/fastapi-mongodb-docker-book-crud.git
-   cd fastapi-app
    ```
 
 2. Build and run the Docker containers using Docker Compose:
