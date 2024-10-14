@@ -21,8 +21,8 @@ This is a FastAPI application that provides a simple CRUD (Create, Read, Update,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/tersea-demo.git
-   cd tersea-demo
+   git clone https://github.com/jutoken/fastapi-mongodb-docker-book-crud.git
+   cd fastapi-app
    ```
 
 2. Build and run the Docker containers using Docker Compose:
