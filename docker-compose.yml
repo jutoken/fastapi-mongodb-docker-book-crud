@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app:
+    container_name: "tersea-group"
+    build:
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+    volumes:
+      - .:/core
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
